@@ -1,0 +1,45 @@
+{
+    "Addr": ":9084",
+    "Radios": {
+        "AM580": {
+            "Nombre": "LW 1 Radio Universidad Cordoba AM580",
+            "URL": "https://radios.solumedia.com:10976/stream",
+            "Redirect": false
+        },
+        "AM700": {
+            "Nombre": "Cadena 3 Cordoba AM700",
+            "URL": "https://playerservices.streamtheworld.com/api/livestream-redirect/radio3.mp3",
+            "Redirect": true
+        },
+        "AM750": {
+            "Nombre": "LRA 7 Radio Nacional Cordoba AM750",
+            "URL": "https://sa.mp3.icecast.magma.edge-access.net/sc_rad7",
+            "Redirect": false
+        },
+        "AM810": {
+            "Nombre": "Radio Mitre Cordoba AM810",
+            "URL": "https://playerservices.streamtheworld.com/api/livestream-redirect/AM810_56AAC.aac",
+            "Redirect": true
+        },
+        "AM870": {
+            "Nombre": "Radio Nacional AM870",
+            "URL": "https://sa.mp3.icecast.magma.edge-access.net/sc_rad1",
+            "Redirect": false
+        },
+        "FM88.9": {
+            "Nombre": "Pobre Johnny Villa Maria Cordoba FM88.9",
+            "URL": "https://stream4.suenas.net/pobrejohnny",
+            "Redirect": false
+        },
+        "FM101.9": {
+            "Nombre": "HORIZONTE FM101.9",
+            "URL": "https://playerservices.streamtheworld.com/api/livestream-redirect/SAM06AAC243_SC",
+            "Redirect": true
+        },
+        "FM102.3": {
+            "Nombre": "ASPEN FM102.3",
+            "URL": "https://playerservices.streamtheworld.com/api/livestream-redirect/ASPEN.mp3",
+            "Redirect": true
+        }
+    }
+}
