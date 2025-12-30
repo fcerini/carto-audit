@@ -1,0 +1,9 @@
+
+
+TYPES
+
+type Config struct {
+	SQL string //postgresql://user:pass@Host:port/Base
+}
+    Configuracion: se carga desde config.json
+

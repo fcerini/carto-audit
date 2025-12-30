@@ -46,3 +46,24 @@ Luego de esto generar un proceso que analice cada llamada para determinar los ca
 
 ### Información Adicional sobre sistema ELS de Google.
 Cuando se llama al 911, el celular emite varias posiciones LONGITUD y LATITUD. Se debe quedar con la última porque es la más precisa (el sistema con el tiempo va perfeccionando la ubicación)
+
+## Configuración
+
+El proyecto se configura mediante un archivo `config.json` que especifica las radios disponibles.
+
+[config](./config.go)
+
+[config.json](./config.json)
+
+
+## Documentacion Interna
+
+[go doc](./doc/doc.txt)
+
+
+## Uso
+
+Ver versión:
+```bash
+./carto-audit -v
+```
