@@ -9,7 +9,14 @@ import (
 
 // Configuracion: se carga desde config.json
 type Config struct {
-	SQL string //postgresql://user:pass@Host:port/Base
+	DbUser     string // Usuario de PostgreSQL
+	DbPassword string // Password de PostgreSQL
+	DbHost     string // Host de PostgreSQL
+	DbPort     string // Puerto de PostgreSQL
+	DbName     string // Nombre de PostgreSQL
+
+	TablaCalles string // Tabla de vectores de calles para geocodificacion
+	SQLCartas   string // Consulta SQL para obtener las cartas a procesar
 }
 
 // load config
